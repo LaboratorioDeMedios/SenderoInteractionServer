@@ -67,6 +67,8 @@ The data is queued in all queues defined in `config.interactions.<interaction_na
 In the AMQP message queued, the Socket.IO client id is set as a header with key `web_client_id`. The type attribute of the message is set to "interaction_data" and when a client disconnects, an AMQP message with type `client_disconnected` is queued in every queue.
 
 --------
-Logo designed by flaviarampa@gmail.com & nilsonbarbara@gmail.com
-
 For more information about Sendero Project go to the [base repository](https://github.com/LaboratorioDeMedios/SenderoProject).
+
+
+---------
+Logo designed by flaviarampa@gmail.com & nilsonbarbara@gmail.com
